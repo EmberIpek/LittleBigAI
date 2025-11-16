@@ -34,8 +34,6 @@ import onnxruntime as ort
 ort_session = ort.InferenceSession("EmberNet.onnx")
 ```
 
-<img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/75eaa6d1-86ef-44a2-9b28-fdf3960aeb45" />
-
 ## T-3 hours:
 Scanning each frame for big objects results in model hallucinating trucks everywhere. Using higher confidence threshold results in no objects being detected, very low frame rate when attempting to scan with multiple different sized blocks.
 
