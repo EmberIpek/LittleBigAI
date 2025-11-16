@@ -24,7 +24,6 @@ EmberNet exported to ONNX file, loaded on RPi. RPi camera capture using OpenCV, 
 
 <img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/370decca-2fba-4327-a0e7-7a3104926eb3" />
 
- 
 ## T-6 hours:
 Convert PyTorch classification model EmberNet to ONNX format, run converted PyTorch model with OpenCV. OpenCV having issue with ONNX model, use ONNX runtime:
 
@@ -43,3 +42,10 @@ I’m a truck. Everything is a truck:
 <img width="975" height="397" alt="image" src="https://github.com/user-attachments/assets/6a77edc1-e34c-4912-a5dc-8670deccef54" />
 
 <img width="975" height="392" alt="image" src="https://github.com/user-attachments/assets/6aa9c04a-a599-48ea-9013-e711533fad26" />
+
+## T-5 minutes:
+
+HORSE DETECTED:
+
+<img width="975" height="778" alt="image" src="https://github.com/user-attachments/assets/605e988c-3d04-4b0b-97c7-fac4c94bb7d2" />
+
