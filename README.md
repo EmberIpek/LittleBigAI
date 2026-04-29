@@ -5,7 +5,7 @@ Algorithm will consider {bird, cat, dog, frog} to be small objects and {airplane
 
 This project was built during a hackathon under time and computing constraints. I trained my own CNN (EmberNet) using PyTorch and deployed it on a Raspberry Pi, which limited performance and model optimization. Due to limited dataset size, overfitting, and lack of hardware-specific optimization of architecture, the model produced a high number of false positives (usually detecting trucks in most frames). However, I was able to achieve a successful detection of a target class near the end of the event. I am especially proud of having built a custom neural network rather than using a pre-trained model on a library.
 
-Portions of training and inference code adapted from an ECE554 Machine Learning for Embedded Systems lab.
+Portions of training and inference code adapted from an ECE554 Machine Learning for Embedded Systems lab. Portions of openCV code adapted from an ECE350 Embedded Systems lab.
 
 EmberNet structure:
 
