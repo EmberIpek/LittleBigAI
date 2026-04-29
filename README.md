@@ -3,7 +3,9 @@
 Self-driving vehicles sometimes suddenly brake for small objects, animals, and even shadows, putting lives of passengers in danger. Proposed solution is to build a CNN based on LeNet and train a ML model on CIFAR-10 dataset: {airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck}. When collision is imminent, use model to detect the type of object and decide whether to override braking based on the size of the object. CIFAR-10 used as a proxy dataset due to time constraints but can be modified for custom dataset to train for harmless vs dangerous objects.
 Algorithm will consider {bird, cat, dog, frog} to be small objects and {airplane, automobile, deer, horse, ship, truck} to be large objects.
 
-This project was built during a hackathon under tight time and computing constraints. I trained my own CNN (EmberNet) using PyTorch and deployed it on a Raspberry Pi, which introduced significant limitations in performance and model optimization. Due to limited dataset size, overfitting, and lack of hardware-specific optimization of architecture, the model produced a high number of false positives (frequently detecting trucks in most frames). However, I was able to achieve a successful detection of a target class near the end of the event. I am especially proud of having built a custom neural network rather than using a pre-trained model on a library.
+This project was built during a hackathon under time and computing constraints. I trained my own CNN (EmberNet) using PyTorch and deployed it on a Raspberry Pi, which limited performance and model optimization. Due to limited dataset size, overfitting, and lack of hardware-specific optimization of architecture, the model produced a high number of false positives (usually detecting trucks in most frames). However, I was able to achieve a successful detection of a target class near the end of the event. I am especially proud of having built a custom neural network rather than using a pre-trained model on a library.
+
+Portions of training and inference code adapted from an ECE554 Machine Learning for Embedded Systems lab.
 
 EmberNet structure:
 
